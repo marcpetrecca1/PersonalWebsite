@@ -1,4 +1,5 @@
 import React from 'react';
+import Burger from './Burger';
 
 const Navbar = () => (
   <nav className="navbar">
@@ -11,6 +12,7 @@ const Navbar = () => (
       <li><a href="0">Work</a></li>
       <li><a href="0">Contact</a></li>
     </ul>
+    <Burger/>
   </nav>
 );
 
