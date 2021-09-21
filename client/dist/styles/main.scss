@@ -1,3 +1,40 @@
-.header {
-    color: lightcoral;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Varta', sans-serif;
+    background-color: rgb(6, 94, 148);
+}
+
+.logo {
+    color: rgb(243, 245, 242);
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-right: 20%;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(243, 245, 242);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
