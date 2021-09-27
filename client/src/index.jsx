@@ -48,9 +48,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="main">
+      <>
         <Navbar/>
-      </div>
+        <img className="proPic" src={"https://media-exp1.licdn.com/dms/image/C4D03AQEZgH0HKMFPsQ/profile-displayphoto-shrink_800_800/0/1576449769156?e=1638403200&v=beta&t=1Huk17zZR4WHKzUR-ucZvOSppglrURd5FsP79HQNIGg"}/>
+        <div className="aboutMe">My name is MarcAnthony Petrecca. I am software engineer located in the greater NYC area.</div>
+      </>
     );
   }
 }

@@ -1,11 +1,9 @@
 import React from 'react';
 import Burger from './Burger';
+import MediaQuery from 'react-responsive';
 
 const Navbar = () => (
   <nav className="navbar">
-    <div className="logo">
-      <h3>MarcAnthony Petrecca</h3> 
-    </div>
     <ul className="nav-links">
       <li><a href="#">About</a></li>
       <li><a href="#">Experience</a></li>
@@ -16,4 +14,10 @@ const Navbar = () => (
   </nav>
 );
 
+{/* <div className="logo">
+<h3 className="fullName">MarcAnthony Petrecca</h3>
+<MediaQuery minWidth={375}>
+  <h3 className="initals">MP</h3>
+</MediaQuery>
+</div> */}
 export default Navbar;
