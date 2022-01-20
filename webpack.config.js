@@ -38,18 +38,7 @@ module.exports = {
         use: [
           'file-loader'
         ]
-      },
-      {
-        test: /\.png$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              mimetype: 'image/png'
-            }
-          }
-        ]
-      },
+      }
     ]
   },
   resolve: {

@@ -1,0 +1,13 @@
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #343a40;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
