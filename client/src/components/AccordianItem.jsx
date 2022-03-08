@@ -22,7 +22,7 @@ const AccordianItem = ({project, index, selected, setSelected, toggle}) => {
           </div>
         </div>
         <ul className="accordian_list_container">
-          {project.text.map((bullet, i) => (<li className="accordian_list_item" key={i}><span className="bullet">{bullet}</span></li>))}
+          {project.text.map((bullet, i) => (<li className="accordian_list_item" key={i}>{bullet}</li>))}
         </ul>
       </div>
     </section>
