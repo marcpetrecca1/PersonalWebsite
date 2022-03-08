@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
-import PersonalPhoto from './websitephoto.png';
+import PersonalPhoto from './newphoto.png';
 import WorkAccordian from './components/WorkAccordian';
 import Technology from './components/Technology';
 import ApiImage from './BalancePhoto.png';

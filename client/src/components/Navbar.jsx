@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <span className="logo">MP</span>
+      <div className="logo">MP</div>
       <ul className="nav-links">
         <li><a className="main-nav-link" href="#about">About</a></li>
         <li><a className="main-nav-link" href="#work">Work</a></li>
