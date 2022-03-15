@@ -16,7 +16,7 @@ const ContactSection = () => (
       <a className="linkedin_tag" href={config.linkedIn} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="linkedIn" icon={faLinkedin} /></a>
     </div> 
 
-    <button className="backToTop" href="#">Back to top</button>
+    <button className="backToTop"><a className="buttonATag" href="#backtotop">Back to top</a></button>
 
   </section>
 );

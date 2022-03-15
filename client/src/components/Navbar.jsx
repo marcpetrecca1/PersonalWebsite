@@ -19,10 +19,9 @@ const Navbar = () => {
   //   });
   // };
 
-  // its not working because toggleNav is being invoked .. still work to do .. don't panic
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="backtotop">
       <div className="logo">MP</div>
       <ul className="nav-links">
         <li><a className="main-nav-link" href="#about">About</a></li>
@@ -40,4 +39,5 @@ const Navbar = () => {
   <h3 className="initals">MP</h3>
 </MediaQuery>
 </div> */ }
+
 export default Navbar;

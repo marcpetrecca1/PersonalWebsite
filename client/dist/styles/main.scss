@@ -466,6 +466,16 @@ body {
   background-color: #E3F2FD;
 }
 
+.buttonATag {
+  text-decoration: none;
+  color: #0077B6;
+}
+
+.buttonATag:active {
+  border-bottom: none;
+  color: #0077B6;
+}
+
 // 1150 px
 
 @media (max-width: 71.9em) {

@@ -60,7 +60,7 @@ const App = () => {
   const sectionScroll = () => {
     const navLinks = document.querySelectorAll('.nav-links a');
     const backButton = document.querySelector('.backToTop');
-    
+
     navLinks.forEach((link) => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -88,9 +88,10 @@ const App = () => {
         });
       });
     });
+  };
 
-
-
+  const isSmallScreen = () => {
+    return window.matchMedia("(max-width: 28.125em)").matches;
   };
   
   return (
