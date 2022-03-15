@@ -12,10 +12,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-// #app {
-//   margin: 0 auto;
-// }
-
 
 .headerContainer{
   background-color: #0077B6;
@@ -169,8 +165,8 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 110rem;
-    margin: 0 auto 15rem;
-    padding-top: 7rem;
+    margin: 0 auto 6rem;
+    padding-top: 6rem;
 }
 
 .projects_container {
@@ -210,7 +206,7 @@ body {
 
 .content {
   display: flex;
-  height: auto;
+  // height: auto;
 //   overflow: hidden;
 //   transition: all 800ms ease-in;
   padding: 2.5rem 2.5rem 1.5rem;
@@ -344,10 +340,10 @@ body {
 .style {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 4rem;
   max-width: 110rem;
   margin: 0 auto;
-  padding: 8rem 0 0;
+  padding: 6rem 0 0;
 }
 
 .gridboxes {
@@ -371,7 +367,7 @@ body {
 
 .features-text{
   display: block;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .dividerContainer {
@@ -396,8 +392,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
-  padding: 8rem 0 0;
+  gap: 6rem;
+  padding: 6rem 0 0;
 }
 
 .contact_container {
@@ -436,6 +432,7 @@ body {
 .closing_statement {
   font-size: 2.2rem;
 }
+
 
 .contact_tag {
   font-size: 2rem;
@@ -547,7 +544,7 @@ body {
   .content {
     flex-direction: column;
     gap: 2rem;
-    padding: 2.5rem 2.5rem 2rem;
+    padding: 2.5rem 2.5rem 1.8rem;
   }
   .navbar {
     margin: 0 auto 20rem;
