@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(express.static(__dirname + "/../client/dist"));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.status(200).send("Reaching server successfully");
 });
 
 app.listen(port, () => {
